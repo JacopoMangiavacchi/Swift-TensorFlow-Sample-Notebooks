@@ -1,5 +1,5 @@
 # Swift-TensorFlow-Sample-Notebooks
-Collection of sample Swift for TensorFlow Colab Notebooks
+Collection of sample Swift for TensorFlow Colab Notebooks:
 
 - XOR (Bit Mutual Exlusion Operator)
 - FizzBuzz (Trivial coding test)
