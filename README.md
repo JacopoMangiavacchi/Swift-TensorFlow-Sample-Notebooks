@@ -2,6 +2,9 @@
 Collection of sample Swift for TensorFlow Colab Notebook
 
 ## XOR
+Classic Trivial Models for the XOR (^) Bit Mutual Exclusive Operation
+
+In 2:2:1 Architecture XOR(x1, x2) = !((x1 & x2) | (!x1 & !x2))
 
 ### Swift Classic 2:2:1 Architecture (One hidden layer with only two neurons and sigmoid activation)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/XOR_Swift_TensorFlow_2-2-1.ipynb)
@@ -14,6 +17,7 @@ Collection of sample Swift for TensorFlow Colab Notebook
 
 
 ## FizzBuzz
+The age-old problem that supposedly filters out the 99.5% of programmers who can’t seem to code
 
 ### Swift version
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/FizzBuzz_Swift_TensorFlow.ipynb)
