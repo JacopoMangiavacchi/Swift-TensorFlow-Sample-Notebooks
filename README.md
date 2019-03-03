@@ -19,6 +19,13 @@ In 2:2:1 Architecture XOR(x1, x2) = !((x1 & x2) | (!x1 & !x2))
 ## FizzBuzz
 The age-old problem that supposedly filters out the 99.5% of programmers who can’t seem to code
 
+```
+if i % 15 == 0:   return "fizzbuzz"
+elif i % 5  == 0: return "buzz"
+elif i % 3  == 0: return "fizz"
+else:             return str(i)
+```
+
 ### - Swift version
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/FizzBuzz_Swift_TensorFlow.ipynb)
 
