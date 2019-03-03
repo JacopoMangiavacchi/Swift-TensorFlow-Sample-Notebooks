@@ -4,6 +4,13 @@ Collection of sample Swift for TensorFlow Colab Notebooks
 ## XOR
 Classic Trivial Models for the XOR (^) Bit Mutual Exclusive Operation
 
+```
+0 ^ 0 = 0
+1 ^ 0 = 1
+0 ^ 1 = 1
+1 ^ 1 = 0
+```
+
 In 2:2:1 Architecture XOR(x1, x2) = !((x1 & x2) | (!x1 & !x2))
 
 ### - Swift Classic 2:2:1 Architecture (One hidden layer with only two neurons and sigmoid activation)
