@@ -47,9 +47,17 @@ else:             return str(i)
 
 ## Linear Regression (Width, Height, Sex)
 Simple linear regression with multi-variable and categories
-Dataset with Height, Weight, Sex statistics: https://raw.githubusercontent.com/Dataweekends/zero_to_deep_learning_video/master/data/weight-height.csv
+Dataset with Height, Weight, Sex statistics from: https://raw.githubusercontent.com/Dataweekends/zero_to_deep_learning_video/master/data/weight-height.csv
 
-## Swift with SciKitLearn MinMax normalization
+### Swift with SciKitLearn MinMax normalization
+Use Python/Pandas to import the dataset
+Use SciKit Learn to normalize values with MinMax scaler
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/LinearRegression_MultiVariable_SciKit_Normalize_Swift_TensorFlow.ipynb)
+
+### Swift with Swift Package import for normalizations
+Use Python/Pandas to import the dataset
+Use SwiftNormalization Package (MinMax, Max, Mean, L1, L2, ZScore) from https://github.com/JacopoMangiavacchi/SwiftNormalization
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/LinearRegression_MultiVariable_With_Packages_Swift_TensorFlow.ipynb)
+
 
