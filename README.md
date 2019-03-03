@@ -2,7 +2,7 @@
 Collection of sample Swift for TensorFlow Colab Notebooks
 
 ## XOR
-Classic Trivial Models for the XOR (^) Bit Mutual Exclusive Operation
+Classic Trivial Model for the XOR (^) Bit Mutual Exclusive Operation
 
 ```
 0 ^ 0 = 0
