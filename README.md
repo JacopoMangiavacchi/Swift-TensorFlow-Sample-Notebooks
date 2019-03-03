@@ -1,5 +1,5 @@
 # Swift-TensorFlow-Sample-Notebooks
-Collection of sample Swift for TensorFlow Colab Notebook
+Collection of sample Swift for TensorFlow Colab Notebooks
 
 ## XOR
 Classic Trivial Models for the XOR (^) Bit Mutual Exclusive Operation
