@@ -16,15 +16,22 @@ Classic Trivial Model for the XOR (^) Bit Mutual Exclusive Operation
 1 ^ 1 = 0
 ```
 
-In 2:2:1 Architecture XOR(x1, x2) = !((x1 & x2) | (!x1 & !x2))
+### Swift Classic 2:2:1 Architecture
+Swift TensorFlow implementation with 1 Hidden Layer with only two neurons and sigmoid activation.
+This architecure force the model to mimic the following XOR formula: `XOR(x1, x2) = !((x1 & x2) | (!x1 & !x2))`
+This model is pretty slow to converge and need lot's of epoch interaction to converge.
 
-### Swift Classic 2:2:1 Architecture (One hidden layer with only two neurons and sigmoid activation)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/XOR_Swift_TensorFlow_2-2-1.ipynb)
 
 ### Swift Fast 2:10:1 Architecture (One hidden layer with ten neurons and relu activation)
+Swift TensorFlow faster model with 1 Hidden Layer but a greater number of neurons.
+This architecture let the model auto discover features without forcing a particular formula.
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/XOR_Swift_TensorFlow_Fast_2-10-1.ipynb)
 
 ### Python Keras version for 2:2:1 
+Python Keras original implementation of the XOR problem using 1 Hidden Layer with with two neurons and sigmoid activation.
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/XOR_Python_Keras_2-2-1.ipynb)
 
 
@@ -39,9 +46,13 @@ else:             return str(i)
 ```
 
 ### Swift version
+Swift TensorFlow version of the classic FizzBuzz programming test
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/FizzBuzz_Swift_TensorFlow.ipynb)
 
 ### Python Keras version 
+Python Keras version of the classic FizzBuzz programming test
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/FizzBuzz_Keras.ipynb)
 
 
