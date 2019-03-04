@@ -17,14 +17,14 @@ Classic Trivial Model for the XOR (^) Bit Mutual Exclusive Operation
 ```
 
 ### Swift Classic 2:2:1 Architecture
-Swift TensorFlow implementation with 1 Hidden Layer with only two neurons and sigmoid activation.
+Swift TensorFlow implementation with 1 Hidden Layer with only two neurons and sigmoid activation function.
 This architecure force the model to mimic the following XOR formula: `XOR(x1, x2) = !((x1 & x2) | (!x1 & !x2))`
 This model is pretty slow to converge and need lot's of epoch interaction to converge.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/XOR_Swift_TensorFlow_2-2-1.ipynb)
 
-### Swift Fast 2:10:1 Architecture (One hidden layer with ten neurons and relu activation)
-Swift TensorFlow faster model with 1 Hidden Layer but a greater number of neurons.
+### Swift Fast 2:10:1 Architecture
+Swift TensorFlow faster model with 1 Hidden Layer but a greater number of neurons and ReLU activation function.
 This architecture let the model auto discover features without forcing a particular formula.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JacopoMangiavacchi/Swift-TensorFlow-Sample-Notebooks/blob/master/XOR_Swift_TensorFlow_Fast_2-10-1.ipynb)
